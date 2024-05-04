@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-nest-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --config ./jest.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "mongodb-memory-server": "^9.2.0",
+    "mongoose": "^8.3.3",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
